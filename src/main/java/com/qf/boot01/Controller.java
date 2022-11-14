@@ -13,6 +13,6 @@ public class Controller {
     public String status (){
 
         System.out.println("got msg");
-        return "SUCCESS   SV";
+        return "SUCCESS   SV     poll";
     }
 }
