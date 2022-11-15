@@ -1,0 +1,7 @@
+FROM openjdk:11
+EXPOSE 8080
+
+WORKDIR /root
+
+ADD jarfile/boot*.jar /root/app.jar
+ENTRYPOINT ["java","-jar","/root/app.jar"]
